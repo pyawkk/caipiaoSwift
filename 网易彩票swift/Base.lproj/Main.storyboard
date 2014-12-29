@@ -5,11 +5,11 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--TabBar3-->
         <scene sceneID="hKL-rM-7NO">
             <objects>
                 <navigationController id="nKq-Rc-gWN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="HEA-6b-ZLe"/>
+                    <tabBarItem key="tabBarItem" title="TabBar3" image="TabBar3" id="HEA-6b-ZLe"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="yje-ne-0ya">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -166,11 +166,11 @@
             </objects>
             <point key="canvasLocation" x="1816" y="1456"/>
         </scene>
-        <!--Item-->
+        <!--TabBar2-->
         <scene sceneID="jCJ-T6-j5y">
             <objects>
                 <navigationController id="Nma-2u-USW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="1qS-dT-Eao"/>
+                    <tabBarItem key="tabBarItem" title="TabBar2" image="TabBar2" id="1qS-dT-Eao"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="SAg-Gl-94v">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -279,5 +279,7 @@
     <resources>
         <image name="LoginScreen" width="296" height="138"/>
         <image name="RedButton" width="61" height="34"/>
+        <image name="TabBar2" width="64" height="49"/>
+        <image name="TabBar3" width="64" height="49"/>
     </resources>
 </document>
